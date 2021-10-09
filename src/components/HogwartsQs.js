@@ -11,9 +11,11 @@ const HogwartsQs = () => {
 			</div>
 			<main>
 				<div className='container'>
-					<h3>questions and answers about <br /> <strong>hogwarts</strong></h3>
+					<div>
+					<h3>questions and answers about <br /></h3>
 					<h2>hogwarts</h2>
 					<h4><em>school of witchcraft and wizardry</em></h4>
+					</div>
 					<section className='info'>
 						{questions.map((question) => (
 							<SingleQuestion key={question.id} {...question} />
