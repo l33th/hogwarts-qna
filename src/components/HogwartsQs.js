@@ -7,7 +7,7 @@ const HogwartsQs = () => {
 	return (
 		<>
 			<div>
-				<h1>hogwarts q's setup</h1>
+				<h1 className='hqs'>hogwarts q's</h1>
 			</div>
 			<main>
 				<div className='container'>
